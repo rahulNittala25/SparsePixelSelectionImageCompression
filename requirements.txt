@@ -1,0 +1,6 @@
+torch @ https://download.pytorch.org/whl/cu113/torch-1.12.0%2Bcu113-cp37-cp37m-linux_x86_64.whl
+numpy==1.21.6
+torchmetrics==0.9.3
+tensorboardX==2.5.1
+torchvision @ https://download.pytorch.org/whl/cu113/torchvision-0.13.0%2Bcu113-cp37-cp37m-linux_x86_64.whl
+matplotlib==3.2.2
