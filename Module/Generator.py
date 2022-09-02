@@ -14,7 +14,7 @@ class Binarization(torch.autograd.Function):
     def backward(ctx,grad_output):
         return grad_output
 
-class Mask_Generator_Net(nn.Module):
+class MaskGeneratorNet(nn.Module):
     def __init__(self, in_channels=6):
         super().__init__()
         ###### C-Block Stacking ##########
@@ -114,7 +114,8 @@ class Mask_Generator_Net(nn.Module):
         out = self.mask(out)
         return out
 
-class Generator_Net(nn.Module):
+    
+class InpaintingNet(nn.Module):
     def __init__(self, in_channels=7):
         super().__init__()
         ###### C-Block Stacking ##########
